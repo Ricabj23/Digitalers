@@ -1,0 +1,15 @@
+
+{
+    "name": "data_api_json",
+    "version": "1.0.0",
+    "description": "json-fake-mockaroo",
+    "main": "/js/app.js",
+    "scripts": {
+      "start": "json-server --watch db.json"  
+    },
+    "author": "Ricardo_Borda",
+    "license": "ISC",
+    "dependencies": {
+      "json-server": "^0.17.0"  
+    }
+  }
