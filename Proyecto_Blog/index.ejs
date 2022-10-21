@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Blog</title>
+  <link rel="stylesheet" href="public/stylesheet/main.css">
+  
+</head>
+<body>
+<div class="wrapper-left">
+      <div class="sidebar-left">
+        <div class="title-sidebar-align" style="margin-top: 12px;">
+            <H2><strong>Blog de Ricardo</strong></H2>
+        </div>
+        <div class="grid-sidebar" style="margin-top: 12px">
+          <div class="icon-sidebar-align">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-newspaper" viewBox="0 0 16 16">
+              <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"/>
+              <path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/>
+            </svg>
+          </div>
+          <div>
+            <p style="margin-top: 4px"><strong>Principal</strong></p>
+          </div>
+        </div>
+
+        <div class="grid-sidebar">
+          <div class="icon-sidebar-align">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-binoculars" viewBox="0 0 16 16">
+              <path d="M3 2.5A1.5 1.5 0 0 1 4.5 1h1A1.5 1.5 0 0 1 7 2.5V5h2V2.5A1.5 1.5 0 0 1 10.5 1h1A1.5 1.5 0 0 1 13 2.5v2.382a.5.5 0 0 0 .276.447l.895.447A1.5 1.5 0 0 1 15 7.118V14.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 14.5v-3a.5.5 0 0 1 .146-.354l.854-.853V9.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v.793l.854.853A.5.5 0 0 1 7 11.5v3A1.5 1.5 0 0 1 5.5 16h-3A1.5 1.5 0 0 1 1 14.5V7.118a1.5 1.5 0 0 1 .83-1.342l.894-.447A.5.5 0 0 0 3 4.882V2.5zM4.5 2a.5.5 0 0 0-.5.5V3h2v-.5a.5.5 0 0 0-.5-.5h-1zM6 4H4v.882a1.5 1.5 0 0 1-.83 1.342l-.894.447A.5.5 0 0 0 2 7.118V13h4v-1.293l-.854-.853A.5.5 0 0 1 5 10.5v-1A1.5 1.5 0 0 1 6.5 8h3A1.5 1.5 0 0 1 11 9.5v1a.5.5 0 0 1-.146.354l-.854.853V13h4V7.118a.5.5 0 0 0-.276-.447l-.895-.447A1.5 1.5 0 0 1 12 4.882V4h-2v1.5a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V4zm4-1h2v-.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5V3zm4 11h-4v.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V14zm-8 0H2v.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V14z"/>
+            </svg>
+          </div>
+
+          <div>
+            <p style="margin-top: 4px"><strong>Explorar</strong></p>
+          </div>
+        </div>
+
+        <div class="grid-sidebar">
+          <div class="icon-sidebar-align">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+              <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+              <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+            </svg>
+          </div>
+
+          <div>
+            <p style="margin-top: 4px"><strong>Mis publicaciones</strong></p>
+          </div>
+        </div>
+        <div class="grid-sidebar">
+          <div class="icon-sidebar-align">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
+              <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
+            </svg>
+          </div>
+
+          <div>
+            <p style="margin-top: 4px"><strong>Guardados</strong></p>
+          </div>
+        </div>
+
+        <div class="grid-sidebar">
+          <div class="icon-sidebar-align">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+              <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+            </svg>
+          </div>
+
+          <div>
+            <p style="margin-top: 4px"><strong>Perfil</strong></p>
+          </div>
+        </div>
+
+        <div class="grid-sidebar">
+          <div class="icon-sidebar-align">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+              <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+            </svg>
+          </div>
+
+          <div>
+            <p style="margin-top: 4px"><strong>Más opciones</strong></p>
+          </div>
+        </div>
+
+        <button class="button-twittear" onclick="window.location.href=''">Nuevo Post</button>
+
+        <div class="box-user">
+          <div class="grid-user">
+            <div>
+              <img
+                src="media/img/women-user.png"
+                alt="user"
+                class="img-user"
+              />
+            </div>
+            <div>
+              <p class="name"><strong>User-Blog23</strong></p>
+              <p class="username">@User-Blog23</p>
+            </div>
+            <div class="mt-arrow">
+              <img
+                src="https://i.ibb.co/mRLLwdW/arrow-down.png"
+                alt=""
+                height="18.75px"
+                width="18.75px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="container-center">
+    <div class="grid-posts">
+      <div class="border-right">
+        <div class="grid-toolbar-center">
+          <div class="center-input-search">
+            <div class="input-group-login" id="shadow">
+              <div class="input-group-prepend-login">
+                <span class="input-group-text fondo-icon" id="icon-search">
+                  <img src="https://i.ibb.co/dmGyr55/search.png" alt="" height="19px" width="19px" />
+                </span>
+              </div>
+              <input
+                type="text"
+                class="border-0-login form-control-login input-border-none"
+                placeholder="¿Que buscas?"
+                id="search"
+                autocomplete="off"
+              />
+            </div>
+          </div>
+          <div class="mt-icon-settings">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+              <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+              <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+            </svg>
+          </div>
+        </div>
+        <div class="box-fixed" id="box-fixed"></div>
+
+        <div class="box-tweet">
+          <div class="grid-tweet">
+            <div>
+              <img
+                src="media/img/men-user.png"npm fund
+
+                alt=""
+                class="img-user-tweet"
+              />
+            </div>
+
+            <div>
+              <p width="98%">
+                <strong>User-Blog</strong>
+                <span class="username-twitter">@User-Blog</span>
+                <span class="username-twitter">Hace 1min</span>
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis id fugiat corrupti dolorum nisi nobis culpa dolores dolor, debitis fugit laboriosam ratione facere, blanditiis molestiae.
+              </p>
+              <br />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eum atque fuga rerum quo. Iusto.
+              </p>
+              <p class="mt-post-tweet">
+                <img alt="imagen aleatoria" src="https://picsum.photos/700/400?random" width="98%">
+              </p>
+
+              <div class="grid-reactions">
+                <div class="grid-box-reaction">
+                  <div class="hover-reaction hover-reaction-comment">
+                    <svg
+                      width="18.75px"
+                      height="18.75px"
+                      viewBox="0 0 24 24"
+                      class="mt-icon-reaction"
+                    >
+                      <g>
+                        <path
+                          d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828c0 .108.044.286.12.403.142.225.384.347.632.347.138 0 .277-.038.402-.118.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67c0-.414-.335-.75-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176z"
+                        ></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="mt-counter">
+                    <p>1</p>
+                  </div>
+                </div>
+                <div class="grid-box-reaction">
+                  <div class="hover-reaction hover-reaction-retweet">
+                    <svg
+                      width="18.75px"
+                      height="18.75px"
+                      viewBox="0 0 24 24"
+                      class="mt-icon-reaction"
+                    >
+                      <g>
+                        <path
+                          d="M23.77 15.67c-.292-.293-.767-.293-1.06 0l-2.22 2.22V7.65c0-2.068-1.683-3.75-3.75-3.75h-5.85c-.414 0-.75.336-.75.75s.336.75.75.75h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22c-.293-.293-.768-.293-1.06 0s-.294.768 0 1.06l3.5 3.5c.145.147.337.22.53.22s.383-.072.53-.22l3.5-3.5c.294-.292.294-.767 0-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22c.148.147.34.22.532.22s.384-.073.53-.22c.293-.293.293-.768 0-1.06l-3.5-3.5c-.293-.294-.768-.294-1.06 0l-3.5 3.5c-.294.292-.294.767 0 1.06s.767.293 1.06 0l2.22-2.22V16.7c0 2.068 1.683 3.75 3.75 3.75h5.85c.414 0 .75-.336.75-.75s-.337-.75-.75-.75z"
+                        ></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="mt-counter">
+                    <p>10</p>
+                  </div>
+                </div>
+                <div class="grid-box-reaction">
+                  <div class="hover-reaction hover-reaction-like">
+                    <svg
+                      width="18.75px"
+                      height="18.75px"
+                      viewBox="0 0 24 24"
+                      class="mt-icon-reaction"
+                    >
+                      <g>
+                        <path
+                          d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965z"
+                        ></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="mt-counter">
+                    <p>300</p>
+                  </div>
+                </div>
+                <div class="grid-box-reaction">
+                  <div class="hover-reaction hover-reaction-comment">
+                    <svg
+                      width="18.75px"
+                      height="18.75px"
+                      viewBox="0 0 24 24"
+                      class="mt-icon-reaction"
+                    >
+                      <g>
+                        <path
+                          d="M17.53 7.47l-5-5c-.293-.293-.768-.293-1.06 0l-5 5c-.294.293-.294.768 0 1.06s.767.294 1.06 0l3.72-3.72V15c0 .414.336.75.75.75s.75-.336.75-.75V4.81l3.72 3.72c.146.147.338.22.53.22s.384-.072.53-.22c.293-.293.293-.767 0-1.06z"
+                        ></path>
+                        <path
+                          d="M19.708 21.944H4.292C3.028 21.944 2 20.916 2 19.652V14c0-.414.336-.75.75-.75s.75.336.75.75v5.652c0 .437.355.792.792.792h15.416c.437 0 .792-.355.792-.792V14c0-.414.336-.75.75-.75s.75.336.75.75v5.652c0 1.264-1.028 2.292-2.292 2.292z"
+                        ></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="mt-counter">
+                    <p>5</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar-right">
+        <div>
+          <button class="button-login" onclick="window.location.href='/views/login/home'">Ingresa</button>
+        </div>
+        <div class="box-share">
+          <p class="txt-share"><strong>Temas destacados</strong></p>
+          <div class="grid-share">
+            <div>
+              <img
+                src="media/img/js.jpg"
+                alt=""
+                class="img-share"
+              />
+            </div>
+            <div>
+              <p><strong>Javascript</strong></p>
+              <p class="username">Destacado del día</p>
+            </div>
+            <div>
+              <button class="button-signup fondo-color-signup">
+                <strong>Más</strong>
+              </button>
+            </div>
+          </div>
+          <div class="grid-share">
+            <div>
+              <img
+                src="media/img/linux.png"
+                alt=""
+                class="img-share"
+              />
+            </div>
+            <div>
+              <p><strong>Linux</strong></p>
+              <p class="username">Destacado de la semana</p>
+            </div>
+            <div>
+              <button class="button-signup fondo-color-signup">
+                <strong>Más</strong>
+              </button>
+            </div>
+          </div>
+
+          <div class="grid-share">
+            <div>
+              <img
+                src="media/img/node.png"
+                alt=""
+                class="img-share"
+              />
+            </div>
+            <div>
+              <p><strong>NodeJS</strong></p>
+              <p class="username">Destacado del mes</p>
+            </div>
+            <div>
+              <button class="button-signup fondo-color-signup">
+                <strong>Más</strong>
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+<!-- partial -->
+  
+</body>
+</html>
